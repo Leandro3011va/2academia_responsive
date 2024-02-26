@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #34495e;
+}
+
+/* MENU */
+
+.menu{
+    background-color: transparent;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.academia, .listanav{
+    color: white;
+}
+
+.logo > img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    margin: 5px 5px 0 35px;
+    cursor: pointer;
+}
+
+.logo > h2{
+    margin-top: 5px;
+    cursor: pointer
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.listanav{
+    text-decoration: none;
+    margin-right: 35px;
+    cursor: pointer;
+    transition: 0.5s ease all;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+/* SLIDER 
+
+.slidershow{
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.navegacion{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar{
+    width: 50%;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar:hover{
+    background: #fff;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+.slide{
+    width: 20%;
+    transition: 0.6;
+}
+
+.slide > img {
+    width: 100%;
+    height: 100%;
+}
+
+#r1:checked ~ s1{
+    margin-left: 0;
+}
+
+#r2:checked ~ s1{
+    margin-left: -20%;
+}    
+*/
+
+
