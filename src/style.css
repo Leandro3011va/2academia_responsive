@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #34495e;
+    /*background: #34495e;*/
 }
 
 /* MENU */
@@ -12,6 +12,7 @@
     height: 60px;
     display: flex;
     justify-content: space-between;
+    background: #34495e;
 }
 
 .logo{
@@ -57,70 +58,141 @@
     border-radius: 10px;
 }
 
-/* SLIDER 
+/* Carrusel de imagenes */
 
-.slidershow{
-    width: 700px;
+.contenItemsCarrusel{
     height: 400px;
     overflow: hidden;
 }
 
-.middle{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+.itemCarrusel{
+    height: 400px;
+    position: relative;
 }
 
-.navegacion{
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-}
-
-.bar{
-    width: 50%;
-    height: 10px;
-    border: 2px solid #fff;
-    margin: 6px;
-    cursor: pointer;
-    transition: 0.4s;
-}
-
-.bar:hover{
-    background: #fff;
-}
-
-input[name="r"]{
-    position: absolute;
-    visibility: hidden;
-}
-
-.slides{
-    width: 500%;
-    height: 100%;
-    display: flex;
-}
-
-.slide{
-    width: 20%;
-    transition: 0.6;
-}
-
-.slide > img {
-    width: 100%;
+.tarjetaCarrusel{
     height: 100%;
 }
 
-#r1:checked ~ s1{
-    margin-left: 0;
+.flechasCarrusel{
+    height: 100%;
+    position: absolute; 
+    top: 0;
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
 }
 
-#r2:checked ~ s1{
-    margin-left: -20%;
-}    
-*/
+.contpuntos{
+    display: flex;
+    justify-content: center;
+}
+
+.contpuntos > a {
+    font-size: 2.5em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}  
+
+/* SECCIONES */
+
+.whisec {
+    margin: 0 4em 2em;
+}
 
 
+.whisec h3 {
+    text-align: center;
+    padding-top: 1em;
+}
+
+.s-nosotros article {
+    background: lightgray;
+    padding: 2em;
+    border-radius: 2em;
+}
+
+
+.cuadrogrupo article {
+    width: 40%;
+}
+
+.cuadrogrupo {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    MARGIN-BOTTOM: 2EM;
+}
+
+p {
+    margin: 1em 0em;
+}
+
+.grupocurso {
+    display: flex;
+    justify-content: space-around;
+}
+
+.grupocurso img {
+    width: 20em;
+    height: 20em;
+}
+
+.grupocurso div {
+    text-align: center;
+    width: 30%;
+}
+
+.blusec {
+    background: #34495e;
+    padding: 0em 2em;
+    color: white;
+    padding-bottom: 2em;
+}
+
+.blusec h3 {
+    text-align: center;
+    padding: 1em;
+}
+
+article.listasdos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.listasdos div {
+    width: 40%;
+    padding: 1em;
+    text-align: left;
+}
+
+/* FOOTER */
+
+.foot {
+    margin: 2em 4em;
+    text-align: center;
+}
+
+.blusec label {
+    display: flex;
+    flex-direction: column;
+    padding: 0.4em;
+}
+
+.blusec form {
+    background: white;
+    color: black;
+    padding: 1em;
+}
+
+.listasdos input {
+    background: lightgray;
+    border: none;
+    padding: 0.4em;
+}
+
+.center {
+    text-align: center!important;
+}

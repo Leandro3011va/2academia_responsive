@@ -24,6 +24,52 @@
     </header>
 
     <main>
+        <div class="contenItemsCarrusel">
+            <div class="itemCarrusel" id="itcar1">
+                <div class="tarjetaCarrusel">
+                    <img src="./imgs/Software developer.jpg" alt="" width="100%"> 
+                </div>
+                <div class="flechasCarrusel">
+                    <a href="#itcar1">
+                        <img src="./imgs/I-removebg-preview.png" alt="" height="40px" width="40px">
+                    </a>
+                    <a href="#itcar2">
+                        <img src="./imgs/D-removebg-preview.png" alt="" height="40px" width="40px">
+                    </a>
+                </div>
+            </div>
+            <div class="itemCarrusel" id="itcar2">
+                <div class="tarjetaCarrusel">
+                    <img src="./imgs/calgary-graphic-design.jpg" alt="" width="100%">
+                </div>
+                <div class="flechasCarrusel">
+                    <a href="#itcar1">
+                        <img src="./imgs/I-removebg-preview.png" alt="" height="40px" width="40px">
+                    </a>
+                    <a href="#itcar3">
+                        <img src="./imgs/D-removebg-preview.png" alt="" height="40px" width="40px">
+                    </a>
+                </div>
+            </div>
+            <div class="itemCarrusel" id="itcar3">
+                <div class="tarjetaCarrusel">
+                    <img src="./imgs/robotics engineer.png" alt="" width="100%">
+                </div>
+                <div class="flechasCarrusel">
+                    <a href="#itcar2">
+                        <img src="./imgs/I-removebg-preview.png" alt="" height="40px" width="40px">
+                    </a>
+                    <a href="#itcar3">
+                        <img src="./imgs/D-removebg-preview.png" alt="" height="40px" width="40px">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="contpuntos">
+            <a href="#itcar1">·</a>
+            <a href="#itcar2">·</a>
+            <a href="#itcar3">·</a>
+        </div>
       <!--  <div class="slidershow middle">
         <div class="slides">
             <input type="radio" name="r" id="r1" checked>
@@ -40,16 +86,21 @@
             <label for="r2" class="bar"></label>
         </div>
        </div> -->
-        <section class="s-nosotros">
-        <button>La Academia</button>
+        <section class="s-nosotros whisec">
+        <h3>La Academia</h3>
         <p>Somos una empresa de capital Venezolano que presta servicios educativos desde el año 2.002, orientados a personas de cualquier edad, interesados en aprender herramientas del área de las ciencias de la computación. Tambien asesoramos en el desarrollo de proyectos informáticos de toda índole.</p>
-        <button>Mision</button>
-        <p>Proporcionar información técnica especializada en el área de la computación, la informática y afines, que sirva como herramienta educativa para estudiantes, profesionales y entusiastas, que les permita complementar su formación académica, para así colaborar activamente en el desarrollo de ésta área en nuestro país, al tener cada día más profesionales mejor formados, que puedan cubrir la gran demanda de personal altamente capacitado en las organizaciones nacionales.</p>
-        <button>Vision</button>
+        <div class="cuadrogrupo">
+        <article><h4>Mision</h4>
+        <p>Proporcionar información técnica especializada en el área de la computación, la informática y afines, que sirva como herramienta educativa para estudiantes, profesionales y entusiastas, que les permita complementar su formación académica, para así colaborar activamente en el desarrollo de ésta área en nuestro país.</p>
+        </article>
+        <article><h4>Vision</h4>
         <p>Ser reconocida como la principal academia de software en el país, proveedora de información técnica especializada de programación y diseño así como de hardware computacional, teniendo presencia a nivel nacional.</p>
+        </article>
         </section>
-        <section>
-            <h2>Cursos</h2>
+        <div>
+        <section class="blusec">
+        <h3>Cursos</h3>
+        <article class="grupocurso">            
             <div>
                 <img src="./imgs/Curso Wordpress.png" alt="C-Wordpress">
                 <h3>Curso Wordpress</h3>
@@ -65,36 +116,59 @@
                 <h3>Curso EComerce</h3>
                 <p>Crear un sitio web para vender productos con un carrito de compras, usando WordPress y el plugin WooCommerce</p>
             </div>
-        </section>
+        </article>
+    </section>
         <section>
-            <h2>¿Te gusta compartir tus conocimientos? ¿Quieres trabajar sin ocuparte una jornada de tiempo completo ?</h2>
-            <h3>Beneficios</h2>
+            <img src="./imgs/d0c4c-marketing.png" alt="" style="width: 100%;">
+        </section>
+        <section class="whisec">
+            <h3>Empleo</h3>
+            <p style="text-align: center;">¿Te gusta compartir tus conocimientos? ¿Quieres trabajar sin ocuparte una jornada de tiempo completo ?</p>
+            <article class="listasdos">
+            <div>
+            <p>Beneficios</p>
             <ul>
                 <li>Horario flexible</li>
                 <li>Descuentos en cursos</li>
                 <li>Ambiente de trabajo joven y dinámico</li>
                 <li>Excelente remuneración</li>
             </ul>
-            <h3>Requisitos</h3>
+            </div>
+            <div>
+            <p>Requisitos</p>
             <ul>
                 <li>Profesional o estudiante universitario de una carrera afín a la informática</li>
                 <li>Edad comprendida entre 20 y 50 años</li>
                 <li>Conocimientos demostrables en alguna herramienta o lenguaje de programación de los mencionados en nuestros cursos</li>
                 <li>Proactivo y Disponibilidad estable</li>
             </ul>
+            </div>
+            </article>
         </section>
-        <section>
-            <h2>Registrate</h2>
+        <section class="blusec">
+            <h3>Registrate</h3>
+            <article class="listasdos">
+            <div>
             <form action="">
                 <label for="nombre">
                     <span>Ingresa tu nombre</span>
                     <input type="text" id="nombre" placeholder="Nombre">
                 </label>
-                <label for="">
+                <label for="contraseña">
                     <span>Ingresa tu contraseña</span>
                     <input type="password" id="contraseña" placeholder="Contraseña">
                 </label>
+                <label for="correo">
+                    <span>Ingresa tu correo electronico</span>
+                    <input type="text" id="correo" placeholder="Correo"> 
+                </label>
               </form>
+              </div>
+              <div class="center">
+              <p>Para garantizar la calidad de nuestro servicio, utilizamos un exclusivo sistema automatizado de validación de aprendizaje que nos permite verificar los conocimientos adquiridos por nuestros alumnos</p>
+              <p>Al registrarte podemos enviar tu certificado de asistencia y conocimiento a través del correo electronico, así como mantenerte informado acerca de proximos cursos y promociones</p>
+              </div>
+            </article>
         </section>
         <footer class="foot">
             <p>+58 (0210) 2511.31.</p>
